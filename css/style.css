@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face { 
+    font-family: "Flare Light Gothic";
+    src: url(../fonts/Flare Light Gothic.eot?) format("eot"), /* IE8+, знак ? позволяет обойти баг в обработчике значения src */
+         url(../fonts/Flare Light Gothic.woff) format("woff"), /* все современные браузеры, IE9+ */
+         url(../fonts/Flare Light Gothic.ttf) format("truetype"); /* все современные браузеры */
+}
+
+@font-face { 
+    font-family: "ColabLig";
+    src: url(../fonts/ColabLig.eot?) format("eot"), /* IE8+, знак ? позволяет обойти баг в обработчике значения src */
+         url(../fonts/ColabLig.woff) format("woff"), /* все современные браузеры, IE9+ */
+         url(../fonts/ColabLig.ttf) format("truetype"); /* все современные браузеры */
+}
+
+@font-face { 
+    font-family: "FranklinGothic";
+    src: url(../fonts/FranklinGothic.eot?) format("eot"), /* IE8+, знак ? позволяет обойти баг в обработчике значения src */
+         url(../fonts/FranklinGothic.woff) format("woff"), /* все современные браузеры, IE9+ */
+         url(../fonts/FranklinGothic.ttf) format("truetype"); /* все современные браузеры */
+}
+
+.wrapper {
+	background: url(../img/bg_blue.png) top no-repeat, url(../img/bg.png);
+}
+
+.contant {
+	width: 1064px;
+	margin: 0 auto;
+}
+
+.clear {
+	clear: both;
+}
+
+.header .logo {
+	width: 238px;
+	height: 56px;
+	float: left;
+	background: url(../img/logo.png) left top no-repeat;
+	margin-top: 37px;
+}
+
+.header .logo > a {
+	font-family: "Flare Light Gothic";
+	font-size: 37px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 400;
+	margin-left: 45px;
+	line-height: 1;
+}
+
+.header .logo > span {
+	font-family: "FranklinGothic";
+	font-size: 17px;
+	font-weight: 300;
+	color: #fff;
+	margin-left: 45px;
+}
+
+.header nav {
+	float: right;
+	margin-top: 50px;
+	overflow: hidden;
+}
+
+.header nav > a {
+	display: block;
+	padding: 5px;
+	float: left;
+	font-family: "ColabLig";
+	font-size: 17px;
+	text-decoration: none;
+	color: #d8d8e3;
+	font-weight: 300;
+	line-height: 1;
+	margin: 5px;
+}
+
+.header nav > a:hover {
+	background: rgb(231, 232, 234);
+	border-radius: 10px;
+	color: rgb(22, 22, 40);
+}
